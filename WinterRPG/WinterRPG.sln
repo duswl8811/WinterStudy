@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinterRPG", "WinterRPG\WinterRPG.vcxproj", "{6C2F9354-B58C-4A6A-81C6-E54DDB1BD106}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProject", "TestProject\TestProject.vcxproj", "{C11D81DB-2884-45CB-827F-B392CDFF2F7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{6C2F9354-B58C-4A6A-81C6-E54DDB1BD106}.Release|x64.Build.0 = Release|x64
 		{6C2F9354-B58C-4A6A-81C6-E54DDB1BD106}.Release|x86.ActiveCfg = Release|Win32
 		{6C2F9354-B58C-4A6A-81C6-E54DDB1BD106}.Release|x86.Build.0 = Release|Win32
+		{C11D81DB-2884-45CB-827F-B392CDFF2F7D}.Debug|x64.ActiveCfg = Debug|x64
+		{C11D81DB-2884-45CB-827F-B392CDFF2F7D}.Debug|x64.Build.0 = Debug|x64
+		{C11D81DB-2884-45CB-827F-B392CDFF2F7D}.Debug|x86.ActiveCfg = Debug|Win32
+		{C11D81DB-2884-45CB-827F-B392CDFF2F7D}.Debug|x86.Build.0 = Debug|Win32
+		{C11D81DB-2884-45CB-827F-B392CDFF2F7D}.Release|x64.ActiveCfg = Release|x64
+		{C11D81DB-2884-45CB-827F-B392CDFF2F7D}.Release|x64.Build.0 = Release|x64
+		{C11D81DB-2884-45CB-827F-B392CDFF2F7D}.Release|x86.ActiveCfg = Release|Win32
+		{C11D81DB-2884-45CB-827F-B392CDFF2F7D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

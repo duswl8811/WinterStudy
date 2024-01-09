@@ -1,6 +1,9 @@
 #pragma once
+#include <vector>
 
 const int Key_ESC = 27;
+
+class CObject;
 
 class CGameInstance
 {
@@ -18,5 +21,8 @@ public:
 
 private:
 	int key = 0;
+
+	std::vector<CObject*> Objects;
+
 };
 
