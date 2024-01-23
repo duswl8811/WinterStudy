@@ -14,4 +14,6 @@ private:
 	virtual void Update() override;
 	virtual void Render() override;
 
+private:
+	int inputkey = 0;
 };
