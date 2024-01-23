@@ -22,4 +22,8 @@ void CPlayer::Render()
 	gotoxy(X, Y);
 
 	std::cout << "▣";
+
+	// 준하가 열심히 플레이어 개발 중
+
+	// 어쩌고 예쁘게 만드는 중
 }
