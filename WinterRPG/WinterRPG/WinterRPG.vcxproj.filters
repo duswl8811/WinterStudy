@@ -13,45 +13,81 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Main">
-      <UniqueIdentifier>{89419d06-350f-4bd9-bbb0-2983541c933d}</UniqueIdentifier>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{9cfe61a6-1230-4862-a822-a69d6c518d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object">
+      <UniqueIdentifier>{eb7bb17e-fd3b-451d-8b04-6c4a3588aaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\01.Character">
+      <UniqueIdentifier>{071b058c-abbf-438b-908f-054ec8e7cd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI">
+      <UniqueIdentifier>{391dcbd0-7dd0-4598-900b-4a92a159fc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component">
+      <UniqueIdentifier>{8a039b77-0047-46d7-995a-20064212745e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.System">
+      <UniqueIdentifier>{13681f0e-2c03-4096-8e4a-b1347364b365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Object\00.Board">
+      <UniqueIdentifier>{b3595673-a1b2-4a5a-98b8-d3673a01a8bc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Main</Filter>
-    </ClCompile>
     <ClCompile Include="GameInstance.cpp">
-      <Filter>Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Common.cpp">
-      <Filter>Main</Filter>
+      <Filter>99.System</Filter>
     </ClCompile>
     <ClCompile Include="Object.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>01.Object</Filter>
     </ClCompile>
     <ClCompile Include="Board.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>01.Object\00.Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Object\01.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>02.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>01.Object\01.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>03.Component</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameInstance.h">
-      <Filter>Main</Filter>
-    </ClInclude>
-    <ClInclude Include="Common.h">
-      <Filter>Main</Filter>
+      <Filter>99.System</Filter>
     </ClInclude>
     <ClInclude Include="Object.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>01.Object</Filter>
     </ClInclude>
     <ClInclude Include="Board.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>01.Object\00.Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Object\01.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>02.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>01.Object\01.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>00.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>03.Component</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

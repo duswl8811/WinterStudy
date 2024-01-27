@@ -10,7 +10,7 @@ int main()
 
 	while (true)
 	{
-		Instance->Update();
+		Instance->Tick();
 		Instance->Render();
 		Sleep(1000);
 

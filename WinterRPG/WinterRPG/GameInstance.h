@@ -13,7 +13,7 @@ public:
 
 public:
 	void Init();
-	void Update();
+	void Tick();
 	void Render();
 	void Destroy();
 

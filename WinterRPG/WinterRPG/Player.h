@@ -1,19 +1,9 @@
 #pragma once
-#include "Object.h"
+#include "Character.h"
 
-class CPlayer : public CObject
+class CPlayer : public CCharacter
 {
 public:
 	CPlayer();
 	~CPlayer();
-
-private:
-
-
-	// CObject을(를) 통해 상속됨
-	virtual void Update() override;
-	virtual void Render() override;
-
-private:
-	int inputkey = 0;
 };

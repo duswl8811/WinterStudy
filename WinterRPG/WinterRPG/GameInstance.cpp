@@ -18,42 +18,27 @@ void CGameInstance::Init()
 
 	CObject* Player = new CPlayer();
 	Objects.emplace_back(Player);
-
-	//Board->Render();
 }
 
-void CGameInstance::Update()
+void CGameInstance::Tick()
 {
-
-	int input = _kbhit();
-	key = 0;
-	if (input)
+	if (_kbhit())
 	{
 		key = _getch();
 	}
-	cout << key << endl;
+
+	for (CObject* Object : Objects)
+	{
+		Object->Tick();
+	}
 }
 
 void CGameInstance::Render()
 {
-	system("cls");
-
-	//Objects[1]->Render();
-
 	for (CObject* Object : Objects)
 	{
 		Object->Render();
 	}
-
-	//for (int i = 1; i < Objects.size(); ++i)
-	//{
-	//	Objects[i]->Render();
-	//}
-
-	//for (vector<CObject*>::iterator iter = Objects.begin() + 1; iter != Objects.end(); ++iter)
-	//{
-	//	(*iter)->Render();
-	//}
 }
 
 void CGameInstance::Destroy()

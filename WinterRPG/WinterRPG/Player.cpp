@@ -1,29 +1,18 @@
 #include "Player.h"
-
+#include "Component.h"
 
 CPlayer::CPlayer()
 {
-	X = 5;
-	Y = 5;
+	Position.X = 5;
+	Position.Y = 5;
+
+	Shape = "P";
+
+	// Add Test (lotus 2024-01-27-12:45)
+	//CComponent* Component = new CComponent;
+	//AddComponent(Component);
 }
 
 CPlayer::~CPlayer()
 {
-}
-
-void CPlayer::Update()
-{
-}
-
-void CPlayer::Render()
-{
-	//부모를 호출한다...
-
-	gotoxy(X, Y);
-
-	std::cout << "▣";
-
-	// 준하가 열심히 플레이어 개발 중
-
-	// 어쩌고 예쁘게 만드는 중
 }
